@@ -20,4 +20,5 @@ services:
 
 networks:
   default:
-    external: true
+    external:
+      name: kafka-network

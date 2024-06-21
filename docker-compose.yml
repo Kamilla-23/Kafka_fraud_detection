@@ -11,5 +11,5 @@ services:
 # Give this composition access to the Kafka network
 networks:
   default:
-    external: true
+    external:
       name: kafka-network
